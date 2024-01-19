@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /*(219,92,37) <= rgb */
+    background-color:	#db5c25 ;
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    /* background-color:	black ; */
+    height: 100%;
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box1 .box1 .box3{
+    flex-basis: 1;
+}
+
+/* .box1 {
+    background-color: aqua;
+}
+.box2{
+    background-color: aquamarine;
+}
+.box3{
+    background-color: blue;
+} */
+
+
+.box1 .counter {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    color: rgb(253,180,75);
+
+}
+.box2 .counter{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    color: rgb(253,180,75);
+}
+.box3 .counter{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    color: rgb(253,180,75);
+}
